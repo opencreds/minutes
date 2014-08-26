@@ -5,12 +5,11 @@
   <title>Scrawl - A Meeting Scribing Tool</title>
   <meta name="description" content="The Scrawl scribing tool is used to translate IRC logs into meeting minutes." />
   <link rel="stylesheet" media="screen" href="scrawl.css" />
-  <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="scrawl.js"></script>
 
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-  <link rel="stylesheet" href="../../css/main.css">
-  <link rel="stylesheet" href="../../css/responsive.css">
+  <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
 
   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' type='text/css'>
   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Raleway:400,300,700' type='text/css'>
@@ -84,19 +83,20 @@ $.getJSON( "people.json", function(people) {
 });
   </script>
 </head>
-<body>
+<body style="background-color: #F2F5F7;">
 
-<div class="content">
+<main>
+<section class="content light-bg">
    <div id="html-output"></div>
-</div>
+</section>
 
 <!--textarea id="html-output" width="80" height="20"></textarea>
 
 <textarea id="text-output" width="80" height="20"></textarea -->
 
-<div class="toolbar-height toolbar-padding"></div>
+<section class="light-bg toolbar-height toolbar-padding"></section>
 
-<div id="toolbar">
+<section id="toolbar">
    <span class="left-column">
       <textarea id="irc-log" class="toolbar-height" name="meeting-irc-log" placeholder="Paste and edit the IRC log here" onkeyup="javascript:updateMinutes()"></textarea>
       <textarea id="html-markup" style="display: none;" class="toolbar-height"></textarea>
@@ -107,8 +107,9 @@ $.getJSON( "people.json", function(people) {
       <div class="button" onclick="javascript:showMarkup('html')">Show HTML</div>
       <div class="button" onclick="javascript:showMarkup('text')">Show Text</div>
    </span>
-</div>
+</section>
 
+</main>
 </body>
 </html>
 

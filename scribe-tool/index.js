@@ -146,9 +146,9 @@ async.waterfall([ function(callback) {
   // generate the index.html file
   var minutes =
     htmlHeader +
-    '<div class="container"><div class="row"><div class="offset2 span8">' +
+    '<main><section><div class="container inner-top">' +
     scrawl.generateMinutes(gLogData, 'html', gDate) +
-    '</div></div></div>' + htmlFooter;
+    '</div></section></main>' + htmlFooter;
   callback(null, minutes);
 }, function(minutes, callback) {
   // write the index.html file to disk

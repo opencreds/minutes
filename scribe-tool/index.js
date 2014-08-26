@@ -49,7 +49,7 @@ function postToWordpress(username, password, content, callback) {
   var client = wp.createClient({
     username: username,
     password: password,
-    url: 'https://www.w3.org/community/webpayments/xmlrpc.php'
+    url: 'https://www.w3.org/community/credentials/xmlrpc.php'
 //    url: 'https://manu.sporny.org/xmlrpc.php'
   });
   // Re-format the HTML for publication to a Wordpress blog
@@ -59,12 +59,12 @@ function postToWordpress(username, password, content, callback) {
   wpSummary = wpSummary.substring(
     wpSummary.indexOf('<dl>'), wpSummary.indexOf('</dl>') + 5);
   wpSummary = wpSummary.replace(/href=\"#/g,
-    'href="http://web-payments.org/minutes/' + gDate + '/#');
+    'href="http://opencreds.org/minutes/' + gDate + '/#');
   wpSummary = wpSummary.replace(/href=\"audio/g,
-    'href="http://web-payments.org/minutes/' + gDate + '/audio');
+    'href="http://opencreds.org/minutes/' + gDate + '/audio');
   wpSummary = wpSummary.replace(/<div><audio[\s\S]*\/audio><\/div>/g, '');
   wpSummary += '<p>Detailed minutes and recorded audio for this call are ' +
-    '<a href="https://web-payments.org/minutes/' + gDate +
+    '<a href="https://opencreds.org/minutes/' + gDate +
     '/">available in the archive</a>.</p>';
 
   // calculate the proper post date
@@ -242,11 +242,11 @@ async.waterfall([ function(callback) {
     }
 
     // format in a way that is readable on G+
-    content = '*Web Payments Community Group Meeting Summary for ' + gDate + '*\n\n' +
+    content = '*Credentials Community Group Meeting Summary for ' + gDate + '*\n\n' +
       'We discussed ' + formattedItems + '.\n\n' +
       content + '\nFull transcript and audio logs are available here:\n\n' +
-      'https://web-payments.org/minutes/' + gDate + '/\n\n' +
-      '#webpayments #w3c';
+      'https://opencreds.org/minutes/' + gDate + '/\n\n' +
+      '#opencreds #w3c';
 
     console.log('scrawl: You will need to paste this to your G+ stream:\n');
     console.log(content);
@@ -289,9 +289,9 @@ async.waterfall([ function(callback) {
         }
       }, function(err, results) {
         // construct the tweet
-        var tweet = 'Web Payments group discusses ' +
-          results.message + ': https://web-payments.org/minutes/' +
-          gDate + '/ #w3c #webpayments';
+        var tweet = 'Credentials group discusses ' +
+          results.message + ': https://opencreds.org/minutes/' +
+          gDate + '/ #w3c #opencreds';
 
         // send the tweet
         twitter.updateStatus(tweet, function(data) {
@@ -309,7 +309,7 @@ async.waterfall([ function(callback) {
       console.log('scrawl: Creating new blog post.');
     }
     var content = {
-      post_title: 'Web Payments Meeting Minutes for ' + gDate,
+      post_title: 'Credentials Meeting Minutes for ' + gDate,
       post_content: scrawl.generateMinutes(gLogData, 'html', gDate)
     };
 
@@ -323,7 +323,7 @@ async.waterfall([ function(callback) {
       prompt.get({
         properties: {
           username: {
-            description: 'Enter the Web Payments WordPress username',
+            description: 'Enter the Credentials WordPress username',
             pattern: /^.{4,}$/,
             message: 'The username must be at least 4 characters.',
             'default': 'msporny'

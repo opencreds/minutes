@@ -702,7 +702,7 @@
       rval += 'Present:\n  ' + 
         scrawl.wordwrap(peoplePresent, 65, '\n  ') + '\n';
       if(context.audio) {
-        rval += 'Audio:\n  https://web-payments.org/minutes/' +
+        rval += 'Audio:\n  https://opencreds.org/minutes/' +
           time.getFullYear() + '-' +
            month + '-' + day + '/audio.ogg\n\n';
       } else {

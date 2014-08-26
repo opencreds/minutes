@@ -624,7 +624,7 @@
         peoplePresent += ', ' + context.totalPresent;
       }
 
-      rval += '<dt>Chair</dt><dd>' + chair + '</dd>\n';
+      rval += '<dt>Organizer</dt><dd>' + chair + '</dd>\n';
       rval += '<dt>Scribe</dt><dd>' + scribe.join(' and ') + '</dd>\n';
       rval += '<dt>Present</dt><dd>' + peoplePresent + '</dd>\n';
 
@@ -697,7 +697,7 @@
         }
       }
 
-      rval += 'Chair:\n  ' + chair + '\n';
+      rval += 'Organizer:\n  ' + chair + '\n';
       rval += 'Scribe:\n  ' + scribe.join(' and ') + '\n';
       rval += 'Present:\n  ' + 
         scrawl.wordwrap(peoplePresent, 65, '\n  ') + '\n';

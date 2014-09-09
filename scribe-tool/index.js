@@ -290,7 +290,7 @@ async.waterfall([ function(callback) {
         }
       }, function(err, results) {
         // construct the tweet
-        var tweet = 'Credentials group discusses ' +
+        var tweet = 'Credentials CG discusses ' +
           results.message + ': https://opencreds.org/minutes/' +
           gDate + '/ #w3c #opencreds';
 

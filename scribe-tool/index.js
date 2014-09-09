@@ -64,7 +64,7 @@ function postToWordpress(username, password, content, callback) {
     'href="http://opencreds.org/minutes/' + gDate + '/audio');
   wpSummary = wpSummary.replace(/<div><audio[\s\S]*\/audio><\/div>/g, '');
   wpSummary += '<p>Detailed minutes and recorded audio for this call are ' +
-    '<a href="https://opencreds.org/minutes/' + gDate +
+    '<a href="http://opencreds.org/minutes/' + gDate +
     '/">available in the archive</a>.</p>';
 
   // calculate the proper post date
@@ -246,7 +246,7 @@ async.waterfall([ function(callback) {
     content = '*Credentials Community Group Meeting Summary for ' + gDate + '*\n\n' +
       'We discussed ' + formattedItems + '.\n\n' +
       content + '\nFull transcript and audio logs are available here:\n\n' +
-      'https://opencreds.org/minutes/' + gDate + '/\n\n' +
+      'http://opencreds.org/minutes/' + gDate + '/\n\n' +
       '#opencreds #w3c';
 
     console.log('scrawl: You will need to paste this to your G+ stream:\n');
@@ -291,7 +291,7 @@ async.waterfall([ function(callback) {
       }, function(err, results) {
         // construct the tweet
         var tweet = 'Credentials CG discusses ' +
-          results.message + ': https://opencreds.org/minutes/' +
+          results.message + ': http://opencreds.org/minutes/' +
           gDate + '/ #w3c #opencreds';
 
         // send the tweet

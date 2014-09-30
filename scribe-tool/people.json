@@ -14,8 +14,24 @@
     ],
     "homepage": "http://dil.lehn.org/"
   },
+  "Jörg Heuer": {
+    "homepage": "https://www.linkedin.com/profile/view?id=5089036",
+    "alias": [
+      "joerg"
+    ]
+  },
   "Mary Bold": {
-    "homepage": "https://www.linkedin.com/in/mbold"
+    "homepage": "https://www.linkedin.com/in/mbold",
+    "alias": [
+      "mbold",
+      "marybold"
+    ]
+  },
+  "Eric Korb": {
+    "homepage": "https://www.linkedin.com/in/erickorb",
+    "alias": [
+      "ekorb"
+    ]
   },
   "Manu Sporny": {
     "alias": [

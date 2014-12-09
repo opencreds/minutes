@@ -14,6 +14,18 @@
     ],
     "homepage": "http://dil.lehn.org/"
   },
+  "Victoriano Giralt": {
+    "homepage": "https://twitter.com/vgiralt"
+  },
+  "elf Pavlik": {
+    "alias": [
+      "elf-pavlik"
+    ],
+    "homepage": "https://github.com/elf-pavlik"
+  },
+  "Rob Trainer": {
+    "homepage": "https://www.linkedin.com/profile/view?id=5346460"
+  },
   "Jörg Heuer": {
     "homepage": "https://www.linkedin.com/profile/view?id=5089036",
     "alias": [
@@ -138,7 +150,8 @@
   },
   "Nate Otto": {
     "alias": [
-      "NateOtto"
+      "NateOtto",
+      "ottonomy"
     ],
     "homepage": "http://www.linkedin.com/in/nateotto"
   },

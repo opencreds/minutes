@@ -49,7 +49,7 @@ else
 <a href="tel:+15409614469;postd=p6304">+1.540.961.4469 x6304</a><br>
 
 <strong><span class="icon icon-bubble"></span> IRC</strong>: 
-<a href="irc://freenode.net/#credentials">irc://freenode.net/#payswarm</a> (connect via <a href="http://webchat.freenode.net/?channels=#credentials">Web IRC</a>)<br>
+<a href="irc://freenode.net/#credentials">irc://freenode.net/#credentials</a> (connect via <a href="http://webchat.freenode.net/?channels=#credentials">Web IRC</a>)<br>
 
 <strong><span class="icon icon-alarm"></span> Duration</strong>: 
 60 minutes

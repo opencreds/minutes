@@ -644,7 +644,7 @@
         peoplePresent += ', ' + context.totalPresent;
       }
 
-      rval += '<dt>Chair</dt><dd>' + chair.join(' and ') + '</dd>\n';
+      rval += '<dt>Organizer</dt><dd>' + chair.join(' and ') + '</dd>\n';
       rval += '<dt>Scribe</dt><dd>' + scribe.join(' and ') + '</dd>\n';
       rval += '<dt>Present</dt><dd>' + peoplePresent + '</dd>\n';
 
@@ -717,7 +717,7 @@
         }
       }
 
-      rval += 'Chair:\n  ' + chair.join(' and ') + '\n';
+      rval += 'Organizer:\n  ' + chair.join(' and ') + '\n';
       rval += 'Scribe:\n  ' + scribe.join(' and ') + '\n';
       rval += 'Present:\n  ' +
         scrawl.wordwrap(peoplePresent, 65, '\n  ') + '\n';
@@ -746,7 +746,7 @@
     var context =
     {
       'group': scrawl.group,
-      'chair': 'Manu Sporny',
+      'chair': ['Manu Sporny'],
       'present': {},
       'scribe': [],
       'topics': [],

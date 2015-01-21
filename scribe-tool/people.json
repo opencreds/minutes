@@ -57,7 +57,8 @@
   "Eric Korb": {
     "homepage": "https://www.linkedin.com/in/erickorb",
     "alias": [
-      "ekorb"
+      "ekorb",
+      "erkorb"
     ]
   },
   "Manu Sporny": {
@@ -65,7 +66,8 @@
       "manu-db",
       "manu1",
       "manu`",
-      "m4nu"
+      "m4nu",
+      "manu"
     ],
     "homepage": "http://manu.sporny.org/about"
   },
@@ -105,11 +107,25 @@
     ],
     "homepage": "https://www.linkedin.com/in/halindrome"
   },
+  "Kerri Lemoie": {
+    "alias": [
+      "Kerri"
+    ],
+    "homepage": "http://kerrilemoie.net/"
+  },
   "Sunny Lee": {
     "alias": [
-      "SunnyLee"
+      "SunnyLee",
+      "SunnyLeeBA",
+      "slee"
     ],
     "homepage": "https://www.linkedin.com/in/threeqube"
+  },
+  "Erin Knight": {
+    "alias": [
+      "eknight"
+    ],
+    "homepage": "http://erinknight.com/about"
   },
   "Richard Varn": {
     "alias": [

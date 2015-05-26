@@ -552,7 +552,9 @@
     var agenda = context.agenda;
     var audio = 'audio.ogg';
     var chair = context.chair;
-    var scribe = context.scribe;
+    var scribe = context.scribe.filter(function(item, i, arr) { 
+      return arr.indexOf(item) === i; 
+    });
     var topics = context.topics;
     var resolutions = context.resolutions;
     var actions = context.actions;
@@ -644,8 +646,8 @@
         peoplePresent += ', ' + context.totalPresent;
       }
 
-      rval += '<dt>Organizer</dt><dd>' + chair.join(' and ') + '</dd>\n';
-      rval += '<dt>Scribe</dt><dd>' + scribe.join(' and ') + '</dd>\n';
+      rval += '<dt>Organizer</dt><dd>' + chair.join(', ') + '</dd>\n';
+      rval += '<dt>Scribe</dt><dd>' + scribe.join(', ') + '</dd>\n';
       rval += '<dt>Present</dt><dd>' + peoplePresent + '</dd>\n';
 
       if(context.audio) {

@@ -78,14 +78,26 @@
     ],
     "homepage": "https://www.linkedin.com/profile/view?id=23158801"
   },
+  "Arto Bendiken": {
+    "homepage": "http://ar.to/"
+  },
+  "James Anderson": {
+    "homepage": "https://github.com/lisp"
+  },
   "Glen Wiley": {
     "homepage": "https://www.linkedin.com/pub/glen-wiley/1/965/955"
+  },
+  "Jordan Windsor": {
+    "alias": [
+      "jordan_"
+    ]
   },
   "Eric Korb": {
     "homepage": "https://www.linkedin.com/in/erickorb",
     "alias": [
       "ekorb",
-      "erkorb"
+      "erkorb",
+      "eric_r_korb"
     ]
   },
   "Manu Sporny": {
@@ -139,6 +151,18 @@
       "KerriLemoie"
     ],
     "homepage": "http://kerrilemoie.net/"
+  },
+  "Richard Varn": {
+    "alias": [
+      "rvarn"
+    ],
+    "homepage": "https://www.linkedin.com/pub/richard-varn/30/377/217"
+  },
+  "Joe Kaplan": {
+    "alias": [
+      "JoeKaplan"
+    ],
+    "homepage": "https://www.linkedin.com/profile/view?id=395137"
   },
   "Sunny Lee": {
     "alias": [

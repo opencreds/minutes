@@ -130,6 +130,7 @@
     "alias": [
       "ekorb",
       "erkorb",
+      "erok210",
       "eric_r_korb"
     ]
   },
@@ -149,6 +150,12 @@
       "pindarhk"
     ],
     "homepage": "http://www.icann.org/en/groups/board/wong.htm"
+  },
+  "John Tibbetts": {
+    "alias": [
+      "JohnT"
+    ],
+    "homepage": "http://kinexis.com/"
   },
   "Mountie Lee": {
     "alias": [

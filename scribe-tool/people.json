@@ -85,7 +85,22 @@
     "homepage": "http://www.w3.org/People/Jacobs/"
   },
   "Matt Stone": {
+    "alias": [
+      "stonematt"
+    ],
     "homepage": "https://www.linkedin.com/in/stonematt"
+  },
+  "Stuart Sutton": {
+    "alias": [
+      "StuartSutton"
+    ],
+    "homepage": "https://www.linkedin.com/in/stuartsutton"
+  },
+  "Henry Story": {
+    "alias": [
+      "bblfish"
+    ],
+    "homepage": "http://bblfish.net/"
   },
   "Christoph Dorn": {
     "homepage": "https://www.linkedin.com/in/christophdorn"
@@ -151,9 +166,13 @@
     ],
     "homepage": "http://www.icann.org/en/groups/board/wong.htm"
   },
+  "Annie Janssen": {
+    "homepage": "https://www.linkedin.com/pub/annie-janssen/14/145/834"
+  },
   "John Tibbetts": {
     "alias": [
-      "JohnT"
+      "JohnT",
+      "johntib"
     ],
     "homepage": "http://kinexis.com/"
   },

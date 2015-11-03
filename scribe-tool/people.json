@@ -84,11 +84,29 @@
     ],
     "homepage": "http://www.w3.org/People/Jacobs/"
   },
+  "Carla Casili": {
+    "alias": [
+      "Carla"
+    ],
+    "homepage": "https://www.linkedin.com/in/carlacasilli"
+  },
+  "Chris Webber": {
+    "alias": [
+      "paroneayea"
+    ],
+    "homepage": "https://www.linkedin.com/in/carlacasilli"
+  },
   "Matt Stone": {
     "alias": [
       "stonematt"
     ],
     "homepage": "https://www.linkedin.com/in/stonematt"
+  },
+  "Rebecca Simmons": {
+    "homepage": "https://www.linkedin.com/in/rebeccajsimmons"
+  },
+  "Deb Everhart": {
+    "homepage": "https://www.linkedin.com/in/deboraheverhart"
   },
   "Stuart Sutton": {
     "alias": [
@@ -146,6 +164,7 @@
       "ekorb",
       "erkorb",
       "erok210",
+      "erkorb_rm",
       "eric_r_korb"
     ]
   },
@@ -187,6 +206,18 @@
       "timeless"
     ],
     "homepage": "http://mozillamemory.org/detailview.php?id=138"
+  },
+  "Greg Kidd": {
+    "alias": [
+      "gregkidd"
+    ],
+    "homepage": "https://www.linkedin.com/in/gregkidd"
+  },
+  "Alex Jackl": {
+    "alias": [
+      "AlexJackl"
+    ],
+    "homepage": "https://www.linkedin.com/in/alexjackl"
   },
   "Daniel Buchner": {
     "homepage": "http://www.backalleycoder.com/about/"

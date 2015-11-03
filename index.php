@@ -40,7 +40,7 @@ else
 }
 ?><br>
 <strong><span class="icon icon-clock"></span> Time</strong>: 
-1500 UTC / 8am San Francisco / 11am Boston / 4pm London<br>
+1600 UTC / 8am San Francisco / 11am Boston / 4pm London<br>
 
 <strong><span class="icon icon-mobile"></span> SIP</strong>: 
 <a href="sip:credentials@opencreds.org">credentials@opencreds.org</a> (Windows / Mac OSX: use <a href="http://icanblink.com/">Blink</a>, Linux: use <a href="http://www.linphone.org/">Linphone</a>)<br>

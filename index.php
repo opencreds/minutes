@@ -3,6 +3,16 @@
 <!-- ==== HEADER -->
 <section class="light-bg">
   <div class="container">
+    <h1>HISTORICAL</h1>
+    <hr>
+    <div class="alert alert-info">
+      <strong>Note</strong>: This is a historical site.  Please visit the <strong><a href="https://www.w3.org/2017/vc/WG/">W3C Verifiable Claims Working Group</a></strong> and the <strong><a href="https://w3c-ccg.github.io/">W3C Credentials Community Group</a></strong>.
+    </div>
+  </div><!-- container -->
+</section>
+
+<section class="light-bg">
+  <div class="container">
     <h1>TELECONFERENCES</h1>
     <hr>
     <p>
